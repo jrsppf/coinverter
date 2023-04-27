@@ -21,6 +21,7 @@ function calculate() {
         amountEl_two.value = (amountEl_one.value * rate).toFixed(2);
       });
   }
+  calculateFiatToFiat();
 }
 
 currencyEl_one.addEventListener("change", calculate);
